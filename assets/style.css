@@ -1,0 +1,147 @@
+* { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    height: 95vh;
+}
+
+h1,h2, h3, p {
+    text-align: center;
+    color: hsl(34, 97%, 14%);
+}
+
+header {
+    background-color: green;
+}
+
+.navbar {
+    background-color: hsl(120, 28%, 25%);
+    height: 35px;
+    padding: 5px;
+    align-items: center;
+    text-align: right;
+    font-size: small;
+}
+
+.HLine {
+    margin-top: -7px;
+    background-color:burlywood;
+    height: 7px;
+}
+
+
+a:link {
+    color:rgb(218, 206, 190);
+    padding: 3px;
+    text-decoration: none;
+}
+
+a:hover {
+    /* transition: 3s; */
+    color:rgb(159, 113, 49);
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+main {
+    margin: 20px;
+    border-bottom: 10px rgb(111, 64, 2);
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 0;
+}
+
+.midborder {
+    margin: -20px;
+    padding: 12px;
+    height: 20px;
+    background-color: burlywood;
+}
+
+.textbox {
+    margin: 0px;
+    padding: 40px;
+}
+
+#grow:hover {
+transform: scale(105%);
+}
+
+#textgrow:hover {
+    font-weight: bold;
+}
+
+.Lorem {
+    margin-bottom: 40px;
+}
+
+.contactMe {
+    margin: -20px;
+    padding: 20px 0 10px 0;
+    background-color: hsl(34, 59%, 82%);
+    font-size: larger;
+    text-align: center;
+}
+button {
+    color: rgb(253, 237, 215);
+    background-color: hsl(0, 28%, 29%);
+}
+
+button:hover {
+    background-color: rgb(95, 146, 111);
+}
+
+.form {
+    margin:10px auto;
+    width: 300px;
+    color:hsl(34, 91%, 18%);
+    padding: 3px;
+    border: solid burlywood;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    margin: -20px auto;
+    padding:20px;
+    background-color: hsl(120, 28%, 25%);
+    border: solid 0 0 10px 0 color black;
+    /* justify-content: center; */
+    color:hsl(30, 12%, 84%);
+    height: 50px;
+}
+
+.borderbottom {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    height: 10px;
+    background-color: hsl(34, 55%, 18%);
+}
+
+@media screen and (min-width: 100px) {
+    img {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: hsl(155, 96%, 91%);
+    }
+}
+
+@media screen and (min-width:1400px) {
+    body {
+        background-color: rgb(194, 227, 227);
+    }
+}

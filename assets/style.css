@@ -91,12 +91,22 @@ transform: scale(105%);
     font-size: larger;
     text-align: center;
 }
+
+#greeting p{
+    display:none;
+}
+
+#greeting:hover p{
+    display:block;
+}
+
 button {
     color: rgb(253, 237, 215);
     background-color: hsl(0, 28%, 29%);
 }
 
 button:hover {
+    font-size: 15px;
     background-color: rgb(95, 146, 111);
 }
 
